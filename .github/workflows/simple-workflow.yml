@@ -13,7 +13,7 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
     inputs:
-      env-name:
+      environment:
         description: "some variable"
         required: true
 

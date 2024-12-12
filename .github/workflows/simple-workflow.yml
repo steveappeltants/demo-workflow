@@ -7,7 +7,7 @@ on:
       environment:
         description: 'some variable'
         required: true
-        default: 'staging'
+        # default: 'staging'
 jobs:
   build:
     runs-on: ubuntu-latest
